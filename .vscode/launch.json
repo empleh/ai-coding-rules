@@ -29,9 +29,14 @@
             "name": "Angular Serve",
             "type": "firefox",
             "request": "launch",
-            "preLaunchTask": "npm: start - angular-app",
+            "preLaunchTask": "npm: start",
             "url": "http://localhost:4200/",
-            "webRoot": "${workspaceFolder}/angular-app"
+            "webRoot": "${workspaceFolder}/angular-app",
+            "timeout": 30000,
+            "presentation": {
+                "group": "angular",
+                "reveal": "always"
+            }
           }
     ]
 }

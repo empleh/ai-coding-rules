@@ -5,6 +5,10 @@
 			"type": "npm",
 			"script": "start",
 			"path": "angular-app",
+			"presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
 			"problemMatcher": {
                 "owner": "typescript",
                 "pattern": "$tsc",
@@ -18,7 +22,7 @@
                     }
                 }
             },
-			"label": "npm: start - angular-app",
+			"label": "npm: start",
 			"detail": "ng serve",
 			"isBackground": true
 		}
