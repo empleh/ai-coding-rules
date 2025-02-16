@@ -403,3 +403,5 @@ FodyWeavers.xsd
 
 */.idea/*
 
+
+angular-app/.vscode/
